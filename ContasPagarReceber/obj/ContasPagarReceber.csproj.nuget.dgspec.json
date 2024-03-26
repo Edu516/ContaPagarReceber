@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/eduardo/Documentos/ContasPagarReceber/ProjetoPagarReceber/ContasPagarReceber/ContasPagarReceber.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\ContasReceber\\ContaPagarReceber\\ContasPagarReceber\\ContasPagarReceber.csproj": {}
   },
   "projects": {
-    "/home/eduardo/Documentos/ContasPagarReceber/ProjetoPagarReceber/ContasPagarReceber/ContasPagarReceber.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\ContasReceber\\ContaPagarReceber\\ContasPagarReceber\\ContasPagarReceber.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eduardo/Documentos/ContasPagarReceber/ProjetoPagarReceber/ContasPagarReceber/ContasPagarReceber.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\ContasReceber\\ContaPagarReceber\\ContasPagarReceber\\ContasPagarReceber.csproj",
         "projectName": "ContasPagarReceber",
-        "projectPath": "/home/eduardo/Documentos/ContasPagarReceber/ProjetoPagarReceber/ContasPagarReceber/ContasPagarReceber.csproj",
-        "packagesPath": "/home/eduardo/.nuget/packages/",
-        "outputPath": "/home/eduardo/Documentos/ContasPagarReceber/ProjetoPagarReceber/ContasPagarReceber/obj/",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\ContasReceber\\ContaPagarReceber\\ContasPagarReceber\\ContasPagarReceber.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\ContasReceber\\ContaPagarReceber\\ContasPagarReceber\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/eduardo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +43,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

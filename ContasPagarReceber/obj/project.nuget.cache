@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qQ42rnVizHzN1RvKUukS9YzSpKfGES1gvDvHLw4F4Wj11h7SE4/zc2GvQ+s1P3RVKowDWTbAuiTOvn1SANoxtQ==",
+  "dgSpecHash": "q2M/X0iT7ABR3JA79XKOVZF/HVko+LzRmSlbHkqwunqFs4LZvS7aF7uq/uxet6jWogoY0awxu8mDuJzD2bRSMw==",
   "success": true,
-  "projectFilePath": "/home/eduardo/Documentos/ContasPagarReceber/ProjetoPagarReceber/ContasPagarReceber/ContasPagarReceber.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\ContasReceber\\ContaPagarReceber\\ContasPagarReceber\\ContasPagarReceber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

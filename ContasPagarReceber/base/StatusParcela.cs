@@ -1,19 +1,19 @@
 using System.ComponentModel;
-
-public enum TipoConta
+using System.Linq;
+public enum StatusParcela
 {
-    [Description("Conta a Receber")]
-    ContaReceber = 1,
+    [Description("Pendente")]
+    Pendente = 1,
 
-    [Description("Conta a Pagar")]
-    ContaPagar = 2
+    [Description("Pago")]
+    Pago = 2
 }
 
-public static class DescricaoConta
+public static class DescricaoStatusParcela
 {
-    public static string ObterDescricao(TipoConta tipoConta)
+    public static string ObterDescricao(StatusParcela statusParcela)
     {
-        var membro = typeof(TipoConta).GetMember(tipoConta.ToString());
+        var membro = typeof(StatusParcela).GetMember(statusParcela.ToString());
         if (membro.Length > 0)
         {
             var descricaoAttribute = membro[0].GetCustomAttributes(typeof(DescriptionAttribute), false)

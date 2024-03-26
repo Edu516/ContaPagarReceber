@@ -1,0 +1,1 @@
+{"ListaContas":[{"Cod":1,"Descricao":"TEste","ValorTotal":500.0,"QuantParcelas":2,"Parcelas":[{"Cod":1,"Valor":250.0,"Status":1},{"Cod":2,"Valor":250.0,"Status":1}],"Tipo":1,"DataInicio":"2024-03-25T00:00:00-03:00","DataFim":"0001-01-01T00:00:00"}],"TotalReceber":500.0,"TotalPagar":0.0,"Saldo":500.0}
